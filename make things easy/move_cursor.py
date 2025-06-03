@@ -59,16 +59,16 @@ press_enter()
 #go fullscreen
 time.sleep(1)
 fullscreen()
-move_cursor(1070,153)
+move_cursor(1150,155)
 
 #type txt or whatever file your looking for 
-time.sleep(1)
-Click(1079, 153)
+time.sleep(2)
+Click(1150,155)
 type_text("TXT")
-move_cursor(1070,200)
+move_cursor(1079,200)
 
 #double click top file
-time.sleep(1)
+time.sleep(3)
 Click(1079,200)
 Click(1079,200)
 
