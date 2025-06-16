@@ -54,13 +54,14 @@ with open('fun.txt', 'r') as file:
     # Iterate through each line
     for line in file:
         # Now current_string holds the string from that lin
-        current_string = line.strip().upper()
+        current_string = line.strip().upper() #is in uppercase so it can be inputted correctly
         text = current_string
         Click(850,300)
         time.sleep(4)
 
         #types the text and waits for it to load
         type_text(text)
+        print(text)
         time.sleep(2)
         press_enter()
        
