@@ -54,7 +54,7 @@ time.sleep(1)
 
 
 
-# Step 1: Load existing names
+#Load existing names
 with open('previous_classes.txt', 'r') as f:
     existing_names = set(line.strip().upper() for line in f)
     old_names = existing_names.copy()
@@ -75,6 +75,7 @@ with open('current_class.txt', 'r') as file:
             time.sleep(4)
                 
             type_text(name)
+            #if for some reason program stops suddenly copy past names that prints into your previous_classes.txt
             print(name)
             time.sleep(2)
             press_enter()
